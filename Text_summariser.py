@@ -1,9 +1,9 @@
 import streamlit as st
 import string
 
-st.title("🧠 Smart Text Summarizer")
+st.title("Text Summarizer!!")
 
-text = st.text_area("Enter your text here")
+text = st.text_area("Enter your text here and you will receive a summarized version of it.")
 
 if st.button("Summarize"):
     if text:
